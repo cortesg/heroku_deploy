@@ -1,4 +1,5 @@
 # Rails app deployment: #
+# IF YOU DO NOT HAVE A BACKEND, YOU MAY BE ABLE TO SKIP STEPS 2, 3, 4, and 10 (but please confirm with Orlando :D) 
 
 ## In any folder (you only need to do this once in your lifetime): ##
 * $brew install postgresql
