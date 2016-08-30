@@ -1,6 +1,6 @@
 # Rails app deployment: #
 
-## In any folder (you only need to do this once in your lifetime...for now): ##
+## In any folder (you only need to do this once in your lifetime): ##
 * $brew install postgresql
 
 ## On your folder: ##
