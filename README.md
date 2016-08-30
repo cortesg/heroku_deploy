@@ -19,4 +19,4 @@
 11. *(If you have an API key)* On heroku.com, go into Settings in your app. Click "Reveal Config Vars" and paste your actual API code.
 12. $heroku open
 
-#Please let Gino know if there are any errors. I will gladly fix it.#
+#Please let Gino know if there are any errors. I will gladly fix it. :D#
