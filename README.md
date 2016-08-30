@@ -4,7 +4,8 @@
 ## In any folder (you only need to do this once in your lifetime): ##
 * $brew install postgresql
 
-## On your app folder/repo: ##
+## On your app folder/repo (commit your code before starting this process): ##
+
 1. $heroku login
 2. database.yml - copy from this repo and paste into your database.yml.
 3. Gemfile - Starting from line 36, copy and paste into your Gemfile.
