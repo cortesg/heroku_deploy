@@ -8,7 +8,7 @@
 
 1. $heroku login
 2. database.yml - copy from this repo and paste into your database.yml.
-3. Gemfile - Starting from line 36, copy and paste into your Gemfile.
+3. Gemfile - Delete gem 'sqlite3' from your current app's Gemfile. Then, starting from line 36, copy and paste my Gemfile into your Gemfile. 
 4. $bundle
 5. *(If you have an API Key)* secrets.yml - copy and paste code in production like so (but replace googlemaps_api_key with yours)
 6. $git add -A && $git commit -m "deployment" *(the commit message can be whatever)* && $git push origin master
