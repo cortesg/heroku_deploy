@@ -11,8 +11,8 @@
 3. Gemfile - Delete gem 'sqlite3' from your current app's Gemfile. Then, starting from line 36, copy and paste my Gemfile into your Gemfile. 
 4. $bundle
 5. *(If you have an API Key)* secrets.yml - copy and paste code in production like so (but replace googlemaps_api_key with yours)
-6. $git add -A && $git commit -m "deployment" *(the commit message can be whatever)* && $git push origin master
-7. $heroku create
+6. $heroku create
+7. $git add -A && $git commit -m "deployment" *(the commit message can be whatever)* && $git push origin master
 8. $heroku apps:rename NewNameHere *(if you want a new name)*
 9. $git push heroku master *(if successful, move to next step)*
 10. $heroku run rake db:migrate
