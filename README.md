@@ -22,8 +22,7 @@
 ## Troubleshooting ##
 
 * $heroku logs --tail *(to see latest in logs)*
-* $heroku restart *(to restart)*
-*
+* $heroku restart (to restart)
 
 #Please let Gino know if there are any errors. I will gladly fix it. :D#
 :+1: :octocat:
