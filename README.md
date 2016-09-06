@@ -29,7 +29,7 @@
 * $git branch gh-pages
 * $git checkout gh-pages
 * $git add -A
-* $git commit -m “"
+* $git commit -m "deploy" *(commit message can be whatever)*
 * $git push origin gh-pages
 * then you can navigate to on the Chrome search bar: https://(your github username).github.io/(repo name)/(file name)
    (file name is not needed if it is index.html)
