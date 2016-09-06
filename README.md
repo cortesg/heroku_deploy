@@ -1,5 +1,5 @@
 # Rails app deployment: #
-# IF YOU DO NOT HAVE A BACKEND, YOU MAY BE ABLE TO SKIP STEPS 2, 3, 4, and 10 (but please confirm with Orlando :D) 
+# IF YOU DO NOT HAVE A BACKEND, YOU MAY BE ABLE TO SKIP STEPS 2, 3, 4, and 10
 
 ## In any folder (you only need to do this once in your lifetime): ##
 * $brew install postgresql
@@ -23,6 +23,16 @@
 
 * $heroku logs --tail *(to see latest in logs)*
 * $heroku restart (to restart)
+
+# github pages for static sites: #
+## On the command line in your project folder/repo: ##
+* $git branch gh-pages
+* $git checkout gh-pages
+* $git add -A
+* $git commit -m “"
+* $git push origin gh-pages
+* then you can navigate to on the Chrome search bar: https://(your github username).github.io/(repo name)/(file name)
+   (file name is not needed if it is index.html)
 
 #Please let Gino know if there are any errors. I will gladly fix it. :D#
 :+1: :octocat:
